@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    color: black;
+    text-decoration: solid;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .wrapper {
+    display: grid;
+    max-width: 960px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 1%;
+    margin: 5vh auto 2vh;
+  }
+
+  .menu {
+    color: black;
+  }
+
+  .menu-label {
+    display: block;
+    font-size: 0.83em;
+    font-weight: bold;
+    margin: 1vh auto 1vh;
+  }
+
+  .chart-control {
+    margin: 1vh auto 1vh;
+  }
+  
+  .bar-chart-container {
+    grid-column: 1 / -1;
+    margin: 0 auto;
+  } 
+  
+  .bar-chart {
+    width: 44%;
+    margin: 0 1.5vw;
+  }
+  
+  .l {
+    float: left;
+  }
+  
+  .r {
+    float: right;
+  }
+  
+  .chart-title {
+    grid-column: 1 / -1;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    width: 100%;
+    margin: 4vh auto 1vh;
+  }
+  
+  .col-head {
+    text-align: center;
+    margin: 2vh auto;
+    float: left;
+  }
+  
+  .grid-item {
+    font-size: 50%;
+    font-weight: bold;
+    padding: 0.5vh 1vw;
+  }
